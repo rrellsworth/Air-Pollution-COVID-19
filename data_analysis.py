@@ -179,7 +179,7 @@ if __name__ == "__main__":
    a_fields.insert(iDAYS, "Days")
    #print(a_fields)
 
-   print(CITY, "-", COUNTRY)
+   print(CITY, "-", COUNTRY, "-", SPECIE)
 
    # Add extra column with # of days from 1/1/2000(used as x value) to the data:
    for r in range(len(a_data)):
