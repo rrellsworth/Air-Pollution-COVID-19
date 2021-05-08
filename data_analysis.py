@@ -177,7 +177,9 @@ if __name__ == "__main__":
    a_fields, a_data = read_csvs(a_FILE_PATHS)
    # Add extra column for number of days conversion to the fields:
    a_fields.insert(iDAYS, "Days")
-   print(a_fields)
+   #print(a_fields)
+
+   print(CITY, "-", COUNTRY)
 
    # Add extra column with # of days from 1/1/2000(used as x value) to the data:
    for r in range(len(a_data)):
